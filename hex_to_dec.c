@@ -21,6 +21,5 @@ main()
 {
 	char s[10];
 	scanf("%s", s);
-	htoi(s);
 	printf("%d\n", htoi(s));
 }
