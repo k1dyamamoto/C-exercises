@@ -56,8 +56,3 @@ void clear(void)
 		;
 	sp = 0;
 }
-
-main()
-{
-
-}
