@@ -7,4 +7,4 @@ Exercises (mostly) from Kernigan's book.
 3. squeeze — deletes any character in s1 that mathces any character in s2
 4. noob_stack — name speaks for itself
 5. getint — writes integer from input or returns 0 if it's not a number
-5. getfloat — the floating-point analog of getint
+5. getfloat — the floating-point analog of getint (even though it's right to left it's precision sucks anyway...)
