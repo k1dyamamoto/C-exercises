@@ -10,4 +10,4 @@ Exercises (mostly) from Kernigan's book.
 5. getint — writes integer from input or returns 0 if it's not a number
 6. getfloat — the floating-point analog of getint (even though it's right to left it's precision sucks anyway...)
 7. strcat — copies string t to the end of s
-8. strncat, strncpy — analogs of <string.h> functions
+8. strncat_strncpy — analogs of <string.h> functions
