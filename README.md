@@ -11,3 +11,4 @@ Exercises (mostly) from Kernigan's book.
 6. getfloat — the floating-point analog of getint (even though it's right to left it's precision sucks anyway...)
 7. strcat — copies string t to the end of s
 8. strncat_strncpy — analogs of <string.h> functions
+9. quicksort — name speaks for itself again
