@@ -12,3 +12,4 @@ Exercises (mostly) from Kernigan's book.
 7. strcat — copies string t to the end of s
 8. strncat_strncpy — analogs of <string.h> functions
 9. quicksort — name speaks for itself again
+10. str_sort — quicksort array of strings
