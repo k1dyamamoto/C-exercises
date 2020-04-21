@@ -13,3 +13,5 @@ Exercises (mostly) from Kernigan's book.
 8. strncat_strncpy — analogs of <string.h> functions
 9. quicksort — name speaks for itself again
 10. str_sort — quicksort array of strings
+#### Command-line input ####
+11. polish_expr — evaluates a reverse Polish expression from the command line (+/-/x allowed)
