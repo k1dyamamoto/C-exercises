@@ -8,7 +8,8 @@ void swap(int *a, int *b)
 	*b = temp;
 }
 
-int *partition(int *low, int *high) {
+int *partition(int *low, int *high) 
+{
 	int p = *(low + (high - low) / 2);
 	while (low <= high) {
 		while (*low < p)
@@ -32,7 +33,8 @@ void quicksort(int *low, int *high)
 }
 
 
-main() {
+main() 
+{
 	int n;
 	scanf("%d\n", &n);
 	int arr[n];
