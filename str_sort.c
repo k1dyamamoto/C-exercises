@@ -2,7 +2,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#define STRLEN 100
 
 void swap(char *a[], char *b[])
 {
@@ -10,7 +9,6 @@ void swap(char *a[], char *b[])
 	*a = *b;
 	*b = temp;
 }
-
 
 char **partition(char *low[], char *high[])
 {
