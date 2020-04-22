@@ -1,7 +1,7 @@
 # C-exercises
 
 Exercises (mostly) from Kernigan's book.
-#### Basic ####
+#### Basics ####
 1. parentheses_errors — finds unbalanced parentheses in a C program (doesn't work with comments yet)
 2. hex_to_dec — htoi converts hexadecimal to decimal
 3. squeeze — deletes any character in s1 that mathces any character in s2
@@ -13,5 +13,6 @@ Exercises (mostly) from Kernigan's book.
 8. strncat_strncpy — analogs of <string.h> functions
 9. quicksort — name speaks for itself again
 10. str_sort — quicksort array of strings
-#### Command-line input ####
+#### Command-line input, more pointers and memory management ####
 11. polish_expr — evaluates a reverse Polish expression from the command line (+/-/x allowed)
+12. tail — bad analog of UNIX tail, works with -n but memory not optimized
