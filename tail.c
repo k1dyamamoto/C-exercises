@@ -5,7 +5,8 @@
 #define ARG_ERR "wrong arguments\n"
 #define DEFAULT_LINES 10
 
-void tail(int lines) {
+void tail(int lines) 
+{
 	char c;
 	char *out = malloc(100 * sizeof(char));
 	int p = 0, size = 100, l = 0;
