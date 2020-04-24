@@ -6,6 +6,7 @@ Exercises (mostly) from Kernigan's book.
 2. hex_to_dec — htoi converts hexadecimal to decimal
 3. squeeze — deletes any character in s1 that mathces any character in s2
 4. noob_stack — name speaks for itself
+5. mylib — header with common input functions
 #### Pointers ####
 5. getint — writes integer from input or returns 0 if it's not a number
 6. getfloat — the floating-point analog of getint (even though it's right to left its precision sucks anyway...)
@@ -16,3 +17,4 @@ Exercises (mostly) from Kernigan's book.
 #### Command-line input, more pointers and memory management ####
 11. polish_expr — evaluates a reverse Polish expression from the command line (+/-/x allowed)
 12. tail — bad analog of UNIX tail, works with -n but memory not optimized
+13. qsort — quicksort that now accepts comparator function pointer and reverse flag (-n for numeric input, -r for reverse)
