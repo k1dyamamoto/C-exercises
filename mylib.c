@@ -29,6 +29,21 @@ int getword(char *str)
         return len;
 }
 
+int getanyword(char *str)
+{
+        char c;
+        while (isspace(c = getchar()) || c == '\n')
+                ;
+        int len = 0;
+        while (c != ' ' && c != '\n' && c != EOF) {
+                *(str++) = c;
+                c = getchar();
+                len++;
+        }
+        *str = '\0';
+        return len;
+}
+
 int getintword(char *str)
 {
         char c;

@@ -18,3 +18,5 @@ Exercises (mostly) from Kernigan's book.
 11. polish_expr — evaluates a reverse Polish expression from the command line (+/-/x allowed)
 12. tail — bad analog of UNIX tail, works with -n but memory not optimized
 13. qsort — quicksort that now accepts comparator function pointer and reverse flag (-n for numeric input, -r for reverse)
+#### Structures ####
+14. tree — binary tree that contains words and numbers of their occurrences 
