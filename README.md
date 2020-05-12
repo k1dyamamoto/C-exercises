@@ -20,4 +20,4 @@ Exercises (mostly) from Kernigan's book.
 13. qsort — quicksort that now accepts comparator function pointer and reverse flag (-n for numeric input, -r for reverse)
 #### Structures, file input ####
 14. tree — binary tree that contains words and numbers of their occurrences
-15. file_lines prints out the first unequal lines in input1.txt and input2.txt
+15. file_lines — prints out the first unequal lines in input1.txt and input2.txt
